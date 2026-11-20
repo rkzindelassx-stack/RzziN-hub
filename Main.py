@@ -1,10 +1,9 @@
 import discord
 from discord import app_commands
 import asyncio
-import os
 
-TOKEN    = os.environ.get("TOKEN")
-GUILD_ID = int(os.environ.get("GUILD_ID"))
+TOKEN    = "MTU3MzE3MTA3NTgwMDM3MTI1MA.Grd6fH.VUDcLScbZIMpxQQ8ZhH_5WcPwFoOQnQxZBfH5c"
+GUILD_ID = 1573168849078059088
 
 STRUCTURE = {
     "central": [("🚩・entrada","text"),("📋・termos","text"),("🔔・anúncios","text"),("🎉・sorteio","text"),("❓・como-comprar","text")],
